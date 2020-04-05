@@ -1,6 +1,6 @@
 **Base Flutter Project with a good separation of concerns.**
 
- - Movie DB API
+ - Personal API
  - `BLOC` and `repository` pattern
  - Generic API `response` and `status` class
  - Handling exceptions/timeouts in a generic way
