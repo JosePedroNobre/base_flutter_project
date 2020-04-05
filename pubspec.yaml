@@ -1,0 +1,67 @@
+name: movies
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0
+  flutter_svg: 0.14.4
+  json_annotation: ^2.0.0
+  shared_preferences: ^0.5.4+5
+  dio: ^3.0.4
+  pretty_dio_logger: ^1.0.7
+  rxdart: ^0.18.0
+  intl: ^0.16.0
+  page_indicator: ^0.3.0
+  auto_size_text: ^2.1.0
+  flutter_neumorphic: ^1.0.1
+  curved_navigation_bar: ^0.3.2
+  flutter_animation_progress_bar: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: RalewayBold
+      fonts:
+        - asset: fonts/Raleway-Bold.ttf
+
+    - family: MuliBold
+      fonts:
+        - asset: fonts/Muli-Bold.ttf
+
+    - family: MuliSemiBold
+      fonts:
+        - asset: fonts/Muli-SemiBold.ttf
+
+    - family: MuliExtraBold
+      fonts:
+        - asset: fonts/Muli-ExtraBold.ttf
+
+    - family: MuliRegular
+      fonts:
+        - asset: fonts/Muli-Regular.ttf
+
+    - family: MuliItalic
+      fonts:
+        - asset: fonts/Muli-Italic.ttf
+
+    - family: MuliLightItalic
+      fonts:
+        - asset: fonts/Muli-LightItalic.ttf
